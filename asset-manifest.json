@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github.io/React-Basic-04-todolist/static/css/main.8602e174.css",
+    "main.js": "/github.io/React-Basic-04-todolist/static/js/main.1d7ac7f3.js",
+    "index.html": "/github.io/React-Basic-04-todolist/index.html",
+    "main.8602e174.css.map": "/github.io/React-Basic-04-todolist/static/css/main.8602e174.css.map",
+    "main.1d7ac7f3.js.map": "/github.io/React-Basic-04-todolist/static/js/main.1d7ac7f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8602e174.css",
+    "static/js/main.1d7ac7f3.js"
+  ]
+}
