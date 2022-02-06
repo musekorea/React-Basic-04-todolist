@@ -1,0 +1,12 @@
+.Layout {
+  padding-top: 20px;
+  max-height: 100vh;
+}
+.Layout .title {
+  width: 90vw;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6c567b;
+}
