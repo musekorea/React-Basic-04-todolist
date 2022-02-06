@@ -1,0 +1,35 @@
+.editTodo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.editTodo form {
+  width: 100%;
+}
+.editTodo form input {
+  flex: 1;
+  width: 90%;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  font-size: 1.05rem;
+}
+.editTodo .buttonBox {
+  display: flex;
+}
+.editTodo .buttonBox button {
+  outline: none;
+  border: none;
+  background: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.editTodo .buttonBox .cancelBtn {
+  background-color: darkgray;
+  margin-right: 5px;
+}
+.editTodo .buttonBox .okBtn {
+  background-color: red;
+}

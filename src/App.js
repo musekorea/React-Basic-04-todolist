@@ -35,10 +35,30 @@ function App() {
       );
     });
   };
+  const onDelete = (id) => {
+    console.log(id, 'hello');
+    setTodos((prev) => {
+      return prev.filter((todo) => todo.id !== id);
+    });
+  };
+  const onEdit = (editedTodo) => {
+    setTodos((prev) => {
+      return prev.map((todo) =>
+        todo.id === editedTodo.id
+          ? { id: editedTodo.id, text: editedTodo.text, checked: todo.checked }
+          : todo
+      );
+    });
+  };
   return (
     <div className='App'>
       <Layout length={todos.length}>
-        <Todolist todos={todos} onCheckToggle={onCheckToggle} />
+        <Todolist
+          todos={todos}
+          onCheckToggle={onCheckToggle}
+          onDelete={onDelete}
+          onEdit={onEdit}
+        />
         <div className='add-todo-button' onClick={handleInsertToggle}>
           <MdAddCircle />
         </div>

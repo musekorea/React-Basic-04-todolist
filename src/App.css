@@ -9,3 +9,8 @@
   font-size: 5rem;
   color: #f67280;
 }
+.add-todo-button:hover {
+  transform: scale(1.1);
+  color: green;
+  transition: all ease-in-out 0.2s;
+}

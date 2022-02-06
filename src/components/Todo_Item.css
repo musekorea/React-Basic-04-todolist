@@ -7,6 +7,9 @@
   padding: 1rem;
   align-items: center;
 }
+.TodoItem:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 .TodoItem .content {
   display: flex;
   flex: 1;
@@ -21,9 +24,26 @@
   margin-left: 0.5rem;
   flex: 1;
   text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .content.checked .text {
   color: #6c567b;
   text-decoration: line-through;
   opacity: 0.6;
+}
+.content .text .buttonBox {
+}
+.content .text .buttonBox button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.content .text .buttonBox button:hover {
+  background-color: rgba(0, 0, 0, 0.603);
+  border-radius: 10px;
+  transform: scale(1.1);
+  transition: all ease-in-out 0.2s;
 }
