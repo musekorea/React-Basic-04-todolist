@@ -1,0 +1,50 @@
+.modal-background {
+  position: fixed;
+  z-index: 900;
+  top: 0;
+  overflow: hidden;
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6c567b;
+  opacity: 0.8;
+}
+.addTodoForm {
+  z-index: 990;
+  margin-left: 10%;
+  position: fixed;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px 1px #f67280;
+  background-color: white;
+}
+.addTodoForm > input {
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #f67280;
+  padding: 0.3rem;
+  font-size: 1.125rem;
+  line-height: 1.2;
+}
+.addTodoForm > button {
+  padding-top: 20px;
+  background: none;
+  outline: none;
+  border: none;
+  color: #f67280;
+  padding: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.1s background ease-in;
+}
